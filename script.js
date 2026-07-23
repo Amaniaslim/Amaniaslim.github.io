@@ -24,7 +24,7 @@
       hero_lead: "Ich verbinde Softwarequalität, strukturierte Fehleranalyse und Security-Verständnis mit praktischer Erfahrung in APIs, Datenbanken und datengetriebenen Projekten.",
       btn_view_projects: "Projekte ansehen",
       hero_status: "Offen für Werkstudentenstellen in Software Testing & QA",
-      avatar_caption: "Profil-Platzhalter mit den Initialen A A",
+      avatar_caption: "Porträtfoto von Amani Aslim",
 
       stat_areas: "Projektbereiche", stat_terms: "analysierte Begriffe",
       stat_core: "Kernbegriffe", stat_since: "seit 2022", stat_scholarship: "Deutschlandstipendium",
@@ -152,7 +152,7 @@
       hero_lead: "I combine software quality, structured defect analysis and security awareness with hands-on experience in APIs, databases and data-driven projects.",
       btn_view_projects: "View projects",
       hero_status: "Open to working student roles in Software Testing & QA",
-      avatar_caption: "Profile placeholder with the initials A A",
+      avatar_caption: "Portrait photo of Amani Aslim",
 
       stat_areas: "project areas", stat_terms: "terms analyzed",
       stat_core: "core terms", stat_since: "since 2022", stat_scholarship: "Deutschlandstipendium",
@@ -280,7 +280,7 @@
       hero_lead: "أجمع بين جودة البرمجيات والتحليل المنهجي للأخطاء والفهم الأمني مع خبرة عملية في الواجهات البرمجية وقواعد البيانات والمشاريع المعتمدة على البيانات.",
       btn_view_projects: "عرض المشاريع",
       hero_status: "متاحة لوظائف طلابية في اختبار البرمجيات وضمان الجودة",
-      avatar_caption: "عنصر نائب للملف الشخصي بالأحرف الأولى A A",
+      avatar_caption: "صورة شخصية لأماني أسلم",
 
       stat_areas: "مجالات مشاريع", stat_terms: "مصطلحاً تم تحليله",
       stat_core: "مصطلحاً أساسياً", stat_since: "منذ 2022", stat_scholarship: "منحة ألمانيا",
