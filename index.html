@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark light">
+  <title>Amani Aslim · Software Testing & Quality Assurance</title>
+
+  <!-- SEO -->
+  <meta name="description" data-i18n="meta_description" content="Portfolio von Amani Aslim – Software Testing, Quality Assurance, Python, REST APIs und Web Security. Offen für Werkstudentenstellen in QA.">
+  <meta name="author" content="Amani Aslim">
+  <meta name="keywords" content="Software Testing, Quality Assurance, QA, ISTQB, Python, REST API, Web Security, Amani Aslim, Portfolio, Werkstudentin">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://amaniaslim.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amani Aslim · Software Testing & Quality Assurance">
+  <meta property="og:description" content="Software Testing & Quality Assurance mit technischem Hintergrund in Python, REST APIs und Web Security.">
+  <meta property="og:url" content="https://amaniaslim.github.io/">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ar_AR">
+  <meta property="og:image" content="https://amaniaslim.github.io/assets/profile-placeholder.svg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Amani Aslim · Software Testing & Quality Assurance">
+  <meta name="twitter:description" content="Software Testing & Quality Assurance mit technischem Hintergrund in Python, REST APIs und Web Security.">
+
+  <link rel="icon" href="assets/profile-placeholder.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip_link">Zum Inhalt springen</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Hauptnavigation">
+      <a class="brand" href="#top" aria-label="Amani Aslim – Startseite">
+        <span class="brand-mark" aria-hidden="true">AA</span>
+        <span class="brand-name">Amani Aslim</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu"
+              aria-label="Navigationsmenü öffnen" data-i18n-aria="nav_toggle_open">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#hero" data-i18n="nav_home">Start</a></li>
+          <li><a href="#about" data-i18n="nav_about">Über mich</a></li>
+          <li><a href="#experience" data-i18n="nav_experience">Erfahrung</a></li>
+          <li><a href="#projects" data-i18n="nav_projects">Projekte</a></li>
+          <li><a href="#skills" data-i18n="nav_skills">Kompetenzen</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Kontakt</a></li>
+        </ul>
+
+        <div class="nav-controls">
+          <div class="lang-switch" role="group" aria-label="Sprache wählen" data-i18n-aria="lang_group">
+            <button type="button" class="lang-btn" data-lang="de" aria-pressed="true">DE</button>
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+            <button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">AR</button>
+          </div>
+          <button type="button" class="theme-toggle" id="themeToggle"
+                  aria-label="Zwischen hellem und dunklem Design wechseln" data-i18n-aria="theme_toggle">
+            <span class="theme-icon theme-icon-dark" aria-hidden="true">☾</span>
+            <span class="theme-icon theme-icon-light" aria-hidden="true">☀</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero_eyebrow">B.Sc. Informatik · M.Sc.-Studentin Internet-Sicherheit</p>
+          <h1 class="hero-title">
+            <span data-i18n="hero_hello">Hallo, ich bin</span>
+            <span class="accent">Amani Aslim.</span>
+          </h1>
+          <p class="hero-subtitle" data-i18n="hero_subtitle">Software Testing &amp; Quality Assurance mit technischem Hintergrund in Python, REST APIs und Web Security.</p>
+          <p class="hero-lead muted" data-i18n="hero_lead">Ich verbinde Softwarequalität, strukturierte Fehleranalyse und Security-Verständnis mit praktischer Erfahrung in APIs, Datenbanken und datengetriebenen Projekten.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects" data-i18n="btn_view_projects">Projekte ansehen</a>
+            <a class="btn" href="https://github.com/Amaniaslim" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn" href="https://www.linkedin.com/in/amani-a-127b18316" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn" href="#contact" data-i18n="nav_contact">Kontakt</a>
+          </div>
+
+          <p class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-i18n="hero_status">Offen für Werkstudentenstellen in Software Testing &amp; QA</span>
+          </p>
+        </div>
+
+        <div class="hero-aside">
+          <figure class="avatar">
+            <img src="assets/profile-placeholder.svg" alt="" width="260" height="260" class="avatar-img">
+            <figcaption class="sr-only" data-i18n="avatar_caption">Profil-Platzhalter mit den Initialen A A</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <ul class="stats container" aria-label="Kennzahlen">
+        <li class="stat"><strong>3</strong><span data-i18n="stat_areas">Projektbereiche</span></li>
+        <li class="stat"><strong>723</strong><span data-i18n="stat_terms">analysierte Begriffe</span></li>
+        <li class="stat"><strong>470</strong><span data-i18n="stat_core">Kernbegriffe</span></li>
+        <li class="stat"><strong data-i18n="stat_since">seit 2022</strong><span data-i18n="stat_scholarship">Deutschlandstipendium</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <p class="eyebrow" data-i18n="about_label">Über mich</p>
+        <h2 class="section-title" id="about-title" data-i18n="about_title">Profil &amp; Ausrichtung</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n="about_p1">Amani Aslim hat ihren Bachelor of Science in Informatik an der Westfälischen Hochschule abgeschlossen und studiert aktuell im Masterstudiengang Internet-Sicherheit.</p>
+            <p data-i18n="about_p2">Ihr beruflicher Schwerpunkt liegt auf Software Testing und Quality Assurance. Sie bereitet sich aktuell auf die ISTQB Foundation Level Zertifizierung vor und interessiert sich besonders für manuelles Testen, Testfallentwurf, strukturierte Fehleranalyse, Bug Reporting, API-Testing und die Weiterentwicklung in Richtung Testautomatisierung.</p>
+
+            <h3 class="about-subtitle" data-i18n="about_tech_title">Praktische technische Erfahrung</h3>
+            <ul class="chip-list" aria-label="Technische Erfahrung">
+              <li>Python</li><li>REST APIs</li><li>GitHub API</li><li>PostgreSQL</li>
+              <li>SQL</li><li>Docker</li><li>Web Security</li>
+              <li data-i18n="about_tech_data">Datenanalyse</li>
+              <li data-i18n="about_tech_docs">strukturierte technische Dokumentation</li>
+            </ul>
+          </div>
+
+          <aside class="card about-card">
+            <h3 class="about-subtitle" data-i18n="about_work_title">Arbeitsweise</h3>
+            <ul class="check-list">
+              <li data-i18n="about_work_1">Systematische Analyse von Anforderungen und Fehlerbildern</li>
+              <li data-i18n="about_work_2">Strukturierte Dokumentation technischer Ergebnisse</li>
+              <li data-i18n="about_work_3">Qualitätsorientiertes und zuverlässiges Arbeiten</li>
+              <li data-i18n="about_work_4">Schnelle Einarbeitung in neue Tools und Testmethoden</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <p class="eyebrow" data-i18n="exp_label">Erfahrung</p>
+        <h2 class="section-title" id="experience-title" data-i18n="exp_title">Werdegang</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3 data-i18n="exp1_role">M.Sc. Internet-Sicherheit</h3>
+                <span class="timeline-date" data-i18n="exp1_date">seit März 2026</span>
+              </div>
+              <p class="timeline-org" data-i18n="exp1_org">Westfälische Hochschule</p>
+              <ul class="check-list">
+                <li data-i18n="exp1_1">Software Testing</li>
+                <li data-i18n="exp1_2">Quality Assurance</li>
+                <li data-i18n="exp1_3">Cybersecurity</li>
+                <li data-i18n="exp1_4">sichere Softwareentwicklung</li>
+                <li data-i18n="exp1_5">Datenschutz</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3 data-i18n="exp2_role">Softwareprojekt WebSecScan</h3>
+                <span class="timeline-date" data-i18n="exp2_date">April 2025 – März 2026</span>
+              </div>
+              <p class="timeline-org" data-i18n="exp2_org">Westfälische Hochschule</p>
+              <ul class="check-list">
+                <li data-i18n="exp2_1">Python-basierter Web Security Scanner</li>
+                <li data-i18n="exp2_2">PostgreSQL und Docker</li>
+                <li data-i18n="exp2_3">Integration mehrerer Security- und Reconnaissance-Tools</li>
+                <li data-i18n="exp2_4">Strukturierung und Auswertung technischer Scan-Ergebnisse</li>
+                <li data-i18n="exp2_5">Testing, Fehleranalyse und technische Dokumentation</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3 data-i18n="exp3_role">Praxisphase – IT-Sicherheit und Datenanalyse</h3>
+                <span class="timeline-date" data-i18n="exp3_date">August 2025 – November 2025</span>
+              </div>
+              <p class="timeline-org" data-i18n="exp3_org">Institut für Internet-Sicherheit if(is)</p>
+              <ul class="check-list">
+                <li data-i18n="exp3_1">Python-Skript zur automatisierten Datenerfassung</li>
+                <li data-i18n="exp3_2">GitHub REST API</li>
+                <li data-i18n="exp3_3">Analyse und Klassifikation von Repository-Tags mit Regex</li>
+                <li data-i18n="exp3_4">Bereinigung, Strukturierung und Auswertung der Daten</li>
+                <li data-i18n="exp3_5">Dokumentation für ein Forschungsprojekt</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3 data-i18n="exp4_role">Bachelorarbeit</h3>
+                <span class="timeline-date" data-i18n="exp4_date">März 2026 – Mai 2026</span>
+              </div>
+              <p class="timeline-org" data-i18n="exp4_org">Institut für Internet-Sicherheit if(is)</p>
+              <ul class="check-list">
+                <li data-i18n="exp4_1">Datenbasierte IT-Sicherheitsnomenklatur</li>
+                <li data-i18n="exp4_2">Knowledge Graphs</li>
+                <li data-i18n="exp4_3">gewichtetes Bewertungsmodell</li>
+                <li data-i18n="exp4_4">Umfrageauswertung</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="eyebrow" data-i18n="proj_label">Projekte</p>
+        <h2 class="section-title" id="projects-title" data-i18n="proj_title">Ausgewählte Arbeiten</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1: WebSecScan -->
+          <article class="card project project-featured">
+            <div class="project-head">
+              <span class="project-num" aria-hidden="true">01</span>
+              <span class="badge badge-private" data-i18n="badge_private">Repository privat</span>
+            </div>
+            <h3 class="project-title" data-i18n="p1_title">WebSecScan – Web Security Scanner</h3>
+            <p data-i18n="p1_desc">Python-basiertes Hochschulprojekt zur automatisierten Identifikation, Strukturierung und Auswertung möglicher Schwachstellen in Webanwendungen.</p>
+
+            <p class="project-goal-label" data-i18n="p1_goal_label">Projektziel</p>
+            <p class="muted" data-i18n="p1_goal">Mehrere Security- und Reconnaissance-Tools in einem strukturierten Ablauf verbinden und deren Ergebnisse für die weitere Analyse aufbereiten.</p>
+
+            <p class="flow-label" data-i18n="flow_label">Technischer Ablauf</p>
+            <ol class="flow" aria-label="Technischer Ablauf">
+              <li data-i18n="p1_flow1">Ziel-URL</li>
+              <li data-i18n="p1_flow2">Security-Tools</li>
+              <li data-i18n="p1_flow3">Ergebnis-Parsing</li>
+              <li>PostgreSQL</li>
+              <li data-i18n="p1_flow5">Analyse &amp; Report</li>
+            </ol>
+
+            <p class="project-contrib-label" data-i18n="contrib_label">Projektbeiträge</p>
+            <ul class="check-list two-col">
+              <li data-i18n="p1_c1">Backend-Entwicklung mit Python</li>
+              <li data-i18n="p1_c2">Integration und automatisierte Ausführung mehrerer Security-Tools</li>
+              <li data-i18n="p1_c3">Verarbeitung und Strukturierung technischer Scan-Ergebnisse</li>
+              <li data-i18n="p1_c4">Speicherung und Auswertung mit PostgreSQL</li>
+              <li data-i18n="p1_c5">Docker-basierte Entwicklungsumgebung</li>
+              <li data-i18n="p1_c6">Analyse möglicher Schwachstellen und CVE-Informationen</li>
+              <li data-i18n="p1_c7">Validierung und Vergleich von Tool-Ergebnissen</li>
+              <li data-i18n="p1_c8">Fehleranalyse bei Scan- und Integrationsproblemen</li>
+              <li data-i18n="p1_c9">technische Dokumentation</li>
+            </ul>
+
+            <div class="tags" aria-label="Technologien">
+              <span>Python</span><span>PostgreSQL</span><span>Docker</span><span>OWASP ZAP</span>
+              <span>Nmap</span><span>Nikto</span><span>WhatWeb</span><span>theHarvester</span><span>CVE Analysis</span>
+            </div>
+          </article>
+
+          <!-- Project 2: Research Paper Discovery Agent -->
+          <article class="card project">
+            <div class="project-head">
+              <span class="project-num" aria-hidden="true">02</span>
+              <span class="badge">GitHub</span>
+            </div>
+            <h3 class="project-title" data-i18n="p2_title">Research Paper Discovery Agent</h3>
+            <p data-i18n="p2_desc">Streamlit-basierte Anwendung zur Suche, Filterung und strukturierten Aufbereitung wissenschaftlicher Publikationen.</p>
+
+            <p class="flow-label" data-i18n="flow_label">Technischer Ablauf</p>
+            <ol class="flow" aria-label="Ablauf">
+              <li data-i18n="p2_flow1">Suchthema</li>
+              <li data-i18n="p2_flow2">API-Abfrage</li>
+              <li data-i18n="p2_flow3">Normalisierung</li>
+              <li data-i18n="p2_flow4">Filterung</li>
+              <li data-i18n="p2_flow5">Ergebnisübersicht</li>
+            </ol>
+
+            <p class="project-contrib-label" data-i18n="func_label">Funktionen</p>
+            <ul class="check-list">
+              <li data-i18n="p2_f1">Eingabe und Verarbeitung eines Research Topics</li>
+              <li data-i18n="p2_f2">Abfrage wissenschaftlicher Publikationsdaten</li>
+              <li data-i18n="p2_f3">strukturierte Darstellung relevanter Ergebnisse</li>
+              <li data-i18n="p2_f4">Filterung und Vergleich von Metadaten</li>
+              <li data-i18n="p2_f5">Validierung externer Daten</li>
+              <li data-i18n="p2_f6">nachvollziehbarer Research-Workflow</li>
+            </ul>
+
+            <div class="tags" aria-label="Technologien">
+              <span>Python</span><span>Streamlit</span><span>APIs</span><span data-i18n="tag_dataproc">Datenverarbeitung</span><span>Git</span>
+            </div>
+            <a class="project-link" href="https://github.com/Amaniaslim/research-paper-discovery-agent" target="_blank" rel="noopener" data-i18n="link_open_repo">Repository öffnen ↗</a>
+          </article>
+
+          <!-- Project 3: GitHub Repository Tag Analyzer -->
+          <article class="card project">
+            <div class="project-head">
+              <span class="project-num" aria-hidden="true">03</span>
+              <span class="badge">if(is)</span>
+            </div>
+            <h3 class="project-title" data-i18n="p3_title">GitHub Repository Tag Analyzer</h3>
+            <p data-i18n="p3_desc">Python-Projekt zur automatisierten Erfassung, Bereinigung und Klassifikation sicherheitsrelevanter Repository-Tags und Releases.</p>
+
+            <p class="project-goal-label" data-i18n="context_label">Kontext</p>
+            <p class="muted" data-i18n="p3_context">Praxisprojekt am Institut für Internet-Sicherheit if(is).</p>
+
+            <p class="flow-label" data-i18n="pipeline_label">Datenpipeline</p>
+            <ol class="flow" aria-label="Datenpipeline">
+              <li>GitHub API</li><li>Python</li><li>JSON</li><li>Regex</li>
+              <li data-i18n="p3_flow5">Klassifikation</li>
+            </ol>
+
+            <p class="project-contrib-label" data-i18n="contrib_label">Projektbeiträge</p>
+            <ul class="check-list">
+              <li data-i18n="p3_c1">automatisierte Datenerfassung</li>
+              <li data-i18n="p3_c2">GitHub REST API</li>
+              <li data-i18n="p3_c3">Datenbereinigung und Strukturierung</li>
+              <li data-i18n="p3_c4">Analyse und Klassifikation mit regulären Ausdrücken</li>
+              <li data-i18n="p3_c5">Überprüfung von API-Antworten und Datenformaten</li>
+              <li data-i18n="p3_c6">Behandlung unvollständiger und inkonsistenter Daten</li>
+              <li data-i18n="p3_c7">Prüfung von Klassifikationsregeln</li>
+              <li data-i18n="p3_c8">Ergebnisvalidierung und Dokumentation</li>
+            </ul>
+
+            <div class="tags" aria-label="Technologien">
+              <span>Python</span><span>GitHub REST API</span><span>JSON</span><span>Regex</span><span data-i18n="tag_dataanalysis">Datenanalyse</span>
+            </div>
+          </article>
+
+          <!-- Project 4: Bachelor Thesis -->
+          <article class="card project project-featured">
+            <div class="project-head">
+              <span class="project-num" aria-hidden="true">04</span>
+              <span class="badge" data-i18n="badge_thesis">Bachelorarbeit</span>
+            </div>
+            <h3 class="project-title" data-i18n="p4_title">Datenbasierte IT-Sicherheitsnomenklatur &amp; Knowledge Graphs</h3>
+            <p data-i18n="p4_desc">Entwicklung einer einheitlichen Struktur zur Bewertung, Kategorisierung und visuellen Verknüpfung von IT-Sicherheitsbegriffen.</p>
+
+            <div class="mini-stats">
+              <div class="mini-stat"><strong>723</strong><span data-i18n="stat_terms">analysierte Begriffe</span></div>
+              <div class="mini-stat"><strong>470</strong><span data-i18n="stat_core">Kernbegriffe</span></div>
+              <div class="mini-stat"><strong>18</strong><span data-i18n="p4_categories">Kategorien</span></div>
+              <div class="mini-stat"><strong>103</strong><span data-i18n="p4_participants">Umfrageteilnehmende</span></div>
+            </div>
+
+            <p class="flow-label" data-i18n="approach_label">Vorgehen</p>
+            <ol class="flow" aria-label="Vorgehen">
+              <li data-i18n="p4_flow1">Fachquellen</li>
+              <li data-i18n="p4_flow2">Bewertungsmodell</li>
+              <li data-i18n="p4_flow3">Auswahl und Kategorien</li>
+              <li>Knowledge Graphs</li>
+              <li data-i18n="p4_flow5">Umfrage</li>
+            </ol>
+
+            <p class="project-contrib-label" data-i18n="results_label">Ergebnisse</p>
+            <ul class="check-list two-col">
+              <li data-i18n="p4_r1">gewichtetes Relevanzmodell</li>
+              <li data-i18n="p4_r2">Strukturierung von Kategorien, Synonymen und Beziehungen</li>
+              <li data-i18n="p4_r3">Knowledge Graph</li>
+              <li data-i18n="p4_r4">Beziehungsgraph</li>
+              <li data-i18n="p4_r5">Empfehlungsassistent</li>
+              <li data-i18n="p4_r6">Umfrage-Tool</li>
+              <li data-i18n="p4_r7">Datenvisualisierung</li>
+              <li data-i18n="p4_r8">strukturierte Wissensrepräsentation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <p class="eyebrow" data-i18n="skills_label">Kompetenzen</p>
+        <h2 class="section-title" id="skills-title" data-i18n="skills_title">Fähigkeiten &amp; Werkzeuge</h2>
+
+        <div class="skills-grid">
+          <article class="card skill-group">
+            <h3 data-i18n="skills_qa_title">Testing &amp; QA</h3>
+            <ul class="chip-list">
+              <li data-i18n="skills_qa_1">Manuelles Testen</li>
+              <li data-i18n="skills_qa_2">Testfallentwurf</li>
+              <li data-i18n="skills_qa_3">Fehleranalyse</li>
+              <li data-i18n="skills_qa_4">Bug Reporting</li>
+              <li data-i18n="skills_qa_5">ISTQB Foundation Level (in Vorbereitung)</li>
+              <li data-i18n="skills_qa_6">Ergebnisvalidierung</li>
+              <li data-i18n="skills_qa_7">strukturierte Dokumentation</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 data-i18n="skills_prog_title">Programmierung &amp; APIs</h3>
+            <ul class="chip-list">
+              <li>Python</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
+              <li>JSON</li><li>Regex</li><li>REST APIs</li><li>GitHub API</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 data-i18n="skills_data_title">Daten &amp; Tools</h3>
+            <ul class="chip-list">
+              <li>PostgreSQL</li><li>SQL</li>
+              <li data-i18n="tag_dataanalysis">Datenanalyse</li>
+              <li>Git</li><li>GitHub</li><li>Docker</li><li>Streamlit</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 data-i18n="skills_sec_title">Web Security</h3>
+            <ul class="chip-list">
+              <li>OWASP ZAP</li><li>Nmap</li><li>WhatWeb</li>
+              <li>Nikto</li><li>theHarvester</li>
+              <li data-i18n="skills_sec_cve">CVE-Analyse</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="langcert-grid">
+          <article class="card">
+            <h3 data-i18n="langs_title">Sprachen</h3>
+            <ul class="def-list">
+              <li><span data-i18n="lang_arabic">Arabisch</span><span class="def-val" data-i18n="lang_native">Muttersprache</span></li>
+              <li><span data-i18n="lang_german">Deutsch</span><span class="def-val">C1</span></li>
+              <li><span data-i18n="lang_english">Englisch</span><span class="def-val">B1</span></li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-i18n="cert_title">Weiterbildung</h3>
+            <ul class="def-list">
+              <li><span>ISTQB Foundation Level</span><span class="def-val" data-i18n="cert_prep">in Vorbereitung</span></li>
+              <li><span>Deutschlandstipendium</span><span class="def-val" data-i18n="cert_since2022">seit 2022</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="eyebrow" data-i18n="contact_label">Kontakt</p>
+        <h2 class="section-title" id="contact-title" data-i18n="contact_title">Lassen Sie uns vernetzen.</h2>
+
+        <div class="contact-grid">
+          <div class="contact-text">
+            <p class="muted" data-i18n="contact_text">Ich interessiere mich für Werkstudentenstellen und Projekte in den Bereichen Software Testing, Quality Assurance, API-Testing und Testautomatisierung.</p>
+          </div>
+
+          <ul class="contact-links" aria-label="Kontaktmöglichkeiten">
+            <li>
+              <span class="contact-key" data-i18n="contact_email_label">E-Mail</span>
+              <a href="mailto:amaniaslim@gmail.com">amaniaslim@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-key">GitHub</span>
+              <a href="https://github.com/Amaniaslim" target="_blank" rel="noopener">github.com/Amaniaslim</a>
+            </li>
+            <li>
+              <span class="contact-key">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/amani-a-127b18316" target="_blank" rel="noopener" data-i18n="contact_linkedin">LinkedIn-Profil</a>
+            </li>
+            <li>
+              <span class="contact-key" data-i18n="contact_location_label">Standort</span>
+              <span data-i18n="contact_location">Gelsenkirchen, Deutschland</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <span class="footer-name">© <span id="year">2026</span> Amani Aslim</span>
+      <div class="footer-links">
+        <a href="https://github.com/Amaniaslim" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/amani-a-127b18316" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <span class="footer-note muted" data-i18n="footer_privacy">Diese Website verwendet keine Tracking- oder Analyse-Cookies.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
