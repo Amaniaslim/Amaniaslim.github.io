@@ -30,8 +30,8 @@
       stat_core: "Kernbegriffe", stat_since: "seit 2022", stat_scholarship: "Deutschlandstipendium",
 
       about_label: "Über mich", about_title: "Profil & Ausrichtung",
-      about_p1: "Amani Aslim hat ihren Bachelor of Science in Informatik an der Westfälischen Hochschule abgeschlossen und studiert aktuell im Masterstudiengang Internet-Sicherheit.",
-      about_p2: "Ihr beruflicher Schwerpunkt liegt auf Software Testing und Quality Assurance. Sie bereitet sich aktuell auf die ISTQB Foundation Level Zertifizierung vor und interessiert sich besonders für manuelles Testen, Testfallentwurf, strukturierte Fehleranalyse, Bug Reporting, API-Testing und die Weiterentwicklung in Richtung Testautomatisierung.",
+      about_p1: "Ich habe meinen Bachelor of Science in Informatik an der Westfälischen Hochschule abgeschlossen und studiere aktuell im Masterstudiengang Internet-Sicherheit.",
+      about_p2: "Mein beruflicher Schwerpunkt liegt auf Software Testing und Quality Assurance. Ich bereite mich aktuell auf die ISTQB Foundation Level Zertifizierung vor und interessiere mich besonders für manuelles Testen, Testfallentwurf, strukturierte Fehleranalyse, Bug Reporting, API-Testing und die Weiterentwicklung in Richtung Testautomatisierung.",
       about_tech_title: "Praktische technische Erfahrung",
       about_tech_data: "Datenanalyse",
       about_tech_docs: "strukturierte technische Dokumentation",
@@ -158,8 +158,8 @@
       stat_core: "core terms", stat_since: "since 2022", stat_scholarship: "Deutschlandstipendium",
 
       about_label: "About", about_title: "Profile & focus",
-      about_p1: "Amani Aslim completed her Bachelor of Science in Computer Science at Westfälische Hochschule and is currently studying in the master's programme in Cybersecurity.",
-      about_p2: "Her professional focus is on Software Testing and Quality Assurance. She is currently preparing for the ISTQB Foundation Level certification and is particularly interested in manual testing, test case design, structured defect analysis, bug reporting, API testing and progressing towards test automation.",
+      about_p1: "I completed my Bachelor of Science in Computer Science at Westfälische Hochschule and am currently studying in the master's programme in Cybersecurity.",
+      about_p2: "My professional focus is on Software Testing and Quality Assurance. I am currently preparing for the ISTQB Foundation Level certification and am particularly interested in manual testing, test case design, structured defect analysis, bug reporting, API testing and progressing towards test automation.",
       about_tech_title: "Hands-on technical experience",
       about_tech_data: "Data analysis",
       about_tech_docs: "structured technical documentation",
@@ -286,8 +286,8 @@
       stat_core: "مصطلحاً أساسياً", stat_since: "منذ 2022", stat_scholarship: "منحة ألمانيا",
 
       about_label: "نبذة عني", about_title: "الملف الشخصي والتوجه",
-      about_p1: "أنهت أماني أسليم درجة البكالوريوس في علوم الحاسوب من جامعة Westfälische Hochschule، وتدرس حالياً في برنامج الماجستير في الأمن السيبراني.",
-      about_p2: "ينصب تركيزها المهني على اختبار البرمجيات وضمان الجودة. تستعد حالياً لشهادة ISTQB Foundation Level، وتهتم بشكل خاص بالاختبار اليدوي وتصميم حالات الاختبار والتحليل المنهجي للأخطاء وتقارير الأخطاء واختبار الواجهات البرمجية والتطور نحو أتمتة الاختبارات.",
+      about_p1: "أنهيتُ درجة البكالوريوس في علوم الحاسوب من جامعة Westfälische Hochschule، وأدرس حالياً في برنامج الماجستير في الأمن السيبراني.",
+      about_p2: "ينصبّ تركيزي المهني على اختبار البرمجيات وضمان الجودة. أستعدّ حالياً لشهادة ISTQB Foundation Level، وأهتمّ بشكل خاص بالاختبار اليدوي وتصميم حالات الاختبار والتحليل المنهجي للأخطاء وتقارير الأخطاء واختبار الواجهات البرمجية والتطور نحو أتمتة الاختبارات.",
       about_tech_title: "خبرة تقنية عملية",
       about_tech_data: "تحليل البيانات",
       about_tech_docs: "توثيق تقني منظم",
