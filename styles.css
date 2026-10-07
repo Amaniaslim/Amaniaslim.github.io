@@ -536,3 +536,5 @@ body[dir="rtl"] .flow li:not(:last-child)::after { content: "←"; }
   }
   .reveal { opacity: 1; transform: none; }
 }
+
+.badge-live { color: #3ecf8e; border-color: color-mix(in srgb, #3ecf8e 40%, var(--border)); }

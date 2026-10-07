@@ -9,7 +9,7 @@
   <!-- SEO -->
   <meta name="description" data-i18n="meta_description" content="Portfolio von Amani Aslim – Software Testing, Quality Assurance, Python, REST APIs und Web Security. Offen für Werkstudentenstellen in QA.">
   <meta name="author" content="Amani Aslim">
-  <meta name="keywords" content="Software Testing, Quality Assurance, QA, ISTQB, Python, REST API, Web Security, Amani Aslim, Portfolio, Werkstudentin">
+  <meta name="keywords" content="Software Testing, Quality Assurance, QA, ISTQB, Python, REST API, Web Security, Knowledge Graph, Neo4j, Amani Aslim, Portfolio, Werkstudentin">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://amaniaslim.github.io/">
 
@@ -127,6 +127,7 @@
           <div class="about-text">
             <p data-i18n="about_p1">Ich habe meinen Bachelor of Science in Informatik an der Westfälischen Hochschule abgeschlossen und studiere aktuell im Masterstudiengang Internet-Sicherheit.</p>
             <p data-i18n="about_p2">Mein beruflicher Schwerpunkt liegt auf Software Testing und Quality Assurance. Ich bereite mich aktuell auf die ISTQB Foundation Level Zertifizierung vor und interessiere mich besonders für manuelles Testen, Testfallentwurf, strukturierte Fehleranalyse, Bug Reporting, API-Testing und die Weiterentwicklung in Richtung Testautomatisierung.</p>
+            <p data-i18n="about_p3">Von Februar bis Juni 2026 habe ich an der Irad Akademie eine Software-Testing-Weiterbildung zur Vorbereitung auf die ISTQB Foundation Level Prüfung absolviert. Seit 2022 bin ich außerdem Stipendiatin des Deutschlandstipendiums.</p>
 
             <h3 class="about-subtitle" data-i18n="about_tech_title">Praktische technische Erfahrung</h3>
             <ul class="chip-list" aria-label="Technische Erfahrung">
@@ -171,6 +172,41 @@
                 <li data-i18n="exp1_3">Cybersecurity</li>
                 <li data-i18n="exp1_4">sichere Softwareentwicklung</li>
                 <li data-i18n="exp1_5">Datenschutz</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3 data-i18n="exp5_role">Masterprojekt – Knowledge Graph IT-Sicherheit</h3>
+                <span class="timeline-date" data-i18n="exp5_date">seit 2026</span>
+              </div>
+              <p class="timeline-org" data-i18n="exp5_org">Westfälische Hochschule / Institut für Internet-Sicherheit if(is)</p>
+              <ul class="check-list">
+                <li data-i18n="exp5_1">Webbasierter Knowledge Graph zur strukturierten Darstellung von IT-Sicherheitsbegriffen und fachlichen Beziehungen</li>
+                <li data-i18n="exp5_2">Full-Stack-Umsetzung mit Neo4j, FastAPI, React, TypeScript und D3.js inklusive Suche, Filterung, interaktiver Graphvisualisierung und rollenbasiertem Review-Workflow</li>
+                <li data-i18n="exp5_3">Integration von 440 IT-Sicherheitsbegriffen in 45 Kategorien und mehr als 2.000 kuratierten aktiven Beziehungen zwischen Lösungen, Bedrohungen, Assets, Compliance, Rollen und Branchen</li>
+                <li data-i18n="exp5_4">Human-in-the-Loop-Verfahren für vorgeschlagene Beziehungen (PROPOSED → ACTIVE/REJECTED) und Vorbereitung einer sicheren Schnittstelle für den KI-Assistenten SIA</li>
+                <li data-i18n="exp5_5">Automatisierte Unit-, Integrations- und Browser-Tests sowie Optimierung anhand von Nutzerfeedback und fachlichem Review</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="card timeline-card">
+              <div class="timeline-head">
+                <h3 data-i18n="exp6_role">Software Testing Weiterbildung</h3>
+                <span class="timeline-date" data-i18n="exp6_date">Februar 2026 – Juni 2026</span>
+              </div>
+              <p class="timeline-org">Irad Akademie</p>
+              <ul class="check-list">
+                <li data-i18n="exp6_1">Vorbereitung auf die ISTQB Foundation Level Prüfung</li>
+                <li data-i18n="exp6_2">Grundlagen des Softwaretestens und des Testprozesses</li>
+                <li data-i18n="exp6_3">Testfallentwurf und Testverfahren</li>
+                <li data-i18n="exp6_4">Fehlermanagement und Bug Reporting</li>
               </ul>
             </div>
           </li>
@@ -238,10 +274,80 @@
         <h2 class="section-title" id="projects-title" data-i18n="proj_title">Ausgewählte Arbeiten</h2>
 
         <div class="projects-grid">
-          <!-- Project 1: WebSecScan -->
+          <!-- Project 1: Knowledge Graph IT-Sicherheit (Masterprojekt) -->
           <article class="card project project-featured">
             <div class="project-head">
               <span class="project-num" aria-hidden="true">01</span>
+              <span class="badge" data-i18n="badge_master">Masterprojekt · if(is)</span>
+            </div>
+            <h3 class="project-title" data-i18n="p5_title">Knowledge Graph IT-Sicherheit</h3>
+            <p data-i18n="p5_desc">Webbasierte Knowledge-Graph-Plattform für den Marktplatz IT-Sicherheit, mit der IT-Sicherheitsbegriffe und ihre fachlichen Zusammenhänge interaktiv dargestellt, durchsucht und überprüft werden können.</p>
+            <p class="muted" data-i18n="p5_example">Der Graph verbindet IT-Sicherheitslösungen, Bedrohungen, Assets, Compliance-Anforderungen, Rollen und Branchen. Wählt man z. B. eine Bedrohung wie Ransomware aus, sieht man direkt, welche Lösungen davor schützen, sie erkennen oder darauf reagieren.</p>
+
+            <div class="mini-stats">
+              <div class="mini-stat"><strong>440</strong><span data-i18n="p5_terms">Begriffe</span></div>
+              <div class="mini-stat"><strong>45</strong><span data-i18n="p4_categories">Kategorien</span></div>
+              <div class="mini-stat"><strong>2.122</strong><span data-i18n="p5_relations">bestätigte Beziehungen</span></div>
+              <div class="mini-stat"><strong>4</strong><span data-i18n="p5_roles">Benutzerrollen</span></div>
+            </div>
+
+            <p class="flow-label" data-i18n="flow_label">Technischer Ablauf</p>
+            <ol class="flow" aria-label="Technischer Ablauf">
+              <li>Neo4j</li>
+              <li>FastAPI</li>
+              <li>React</li>
+              <li>D3.js</li>
+              <li data-i18n="p5_flow5">Review &amp; SIA</li>
+            </ol>
+
+            <p class="project-contrib-label" data-i18n="contrib_label">Projektbeiträge</p>
+            <ul class="check-list two-col">
+              <li data-i18n="p5_c1">Aufbau des Knowledge Graphs mit Neo4j</li>
+              <li data-i18n="p5_c2">Backend-Entwicklung mit Python / FastAPI</li>
+              <li data-i18n="p5_c3">Frontend mit React / TypeScript</li>
+              <li data-i18n="p5_c4">Interaktive Graphvisualisierung mit D3.js</li>
+              <li data-i18n="p5_c5">Suche nach Begriffen, Synonymen und Abkürzungen</li>
+              <li data-i18n="p5_c6">Bereichs-, Kategorie- und Beziehungsfilter</li>
+              <li data-i18n="p5_c7">Fokus- und Nachbarschaftsansichten für einzelne Begriffe</li>
+              <li data-i18n="p5_c8">Beziehungstypen wie PROTECTS_AGAINST, DETECTS und RESPONDS_TO</li>
+              <li data-i18n="p5_c9">Rollenmodell für Viewer, Experten, Editoren und Administratoren</li>
+              <li data-i18n="p5_c10">Feedback-, Kommentar- und Änderungsvorschlagsfunktionen</li>
+              <li data-i18n="p5_c11">Human-in-the-Loop-Review für neue und KI-vorgeschlagene Beziehungen</li>
+              <li data-i18n="p5_c12">Import und Kuratierung größerer Beziehungsdatenbestände</li>
+              <li data-i18n="p5_c13">CSV-/Tabellenexport und Review-Funktionen</li>
+              <li data-i18n="p5_c14">Read-only-Embed-Ansicht für die Integration in andere Webseiten</li>
+              <li data-i18n="p5_c15">Vorbereitung als strukturierte Wissensquelle für den KI-Assistenten SIA</li>
+              <li data-i18n="p5_c16">Automatisierte Tests sowie Browser-/End-to-End-Tests</li>
+            </ul>
+
+            <div class="tags" aria-label="Technologien">
+              <span>Python</span><span>FastAPI</span><span>Neo4j</span><span>Cypher</span><span>React</span>
+              <span>TypeScript</span><span>D3.js</span><span>Docker</span><span>REST API</span><span>Playwright</span><span>GitLab</span>
+            </div>
+            <a class="project-link" href="https://it-sicherheit.de/ratgeber/knowledge-graph/" target="_blank" rel="noopener" data-i18n="link_open_live">Knowledge Graph ansehen ↗</a>
+          </article>
+
+          <!-- Project 2: Horo Kfz-Werkstatt -->
+          <article class="card project project-featured">
+            <div class="project-head">
+              <span class="project-num" aria-hidden="true">02</span>
+              <span class="badge badge-live" data-i18n="badge_live">Live in Produktion</span>
+            </div>
+            <h3 class="project-title">Horo Kfz-Werkstatt</h3>
+            <p class="timeline-date" data-i18n="p6_date">Juli 2026 – August 2026</p>
+            <p data-i18n="p6_desc">Konzeption, Full-Stack-Entwicklung und produktiver Betrieb einer Online-Terminplattform für eine Kfz-Werkstatt in Voerde. Kunden buchen verfügbare Leistungen und Zeitfenster und verwalten Termine über sichere Links; Kalender-, E-Mail- und Verwaltungsprozesse sind automatisiert integriert.</p>
+
+            <div class="tags" aria-label="Technologien">
+              <span>Python</span><span>Django</span><span>PostgreSQL</span><span>Docker</span>
+              <span>Google Calendar API</span><span>HTMX</span><span>Caddy</span><span>IONOS VPS</span>
+            </div>
+            <a class="project-link" href="https://kfzhoro-werkstatt.de" target="_blank" rel="noopener" data-i18n="link_live_site">Live-Website ↗</a>
+          </article>
+
+          <!-- Project 3: WebSecScan -->
+          <article class="card project project-featured">
+            <div class="project-head">
+              <span class="project-num" aria-hidden="true">03</span>
               <span class="badge badge-private" data-i18n="badge_private">Repository privat</span>
             </div>
             <h3 class="project-title" data-i18n="p1_title">WebSecScan – Web Security Scanner</h3>
@@ -278,10 +384,10 @@
             </div>
           </article>
 
-          <!-- Project 2: Research Paper Discovery Agent -->
+          <!-- Project 4: Research Paper Discovery Agent -->
           <article class="card project">
             <div class="project-head">
-              <span class="project-num" aria-hidden="true">02</span>
+              <span class="project-num" aria-hidden="true">04</span>
               <span class="badge">GitHub</span>
             </div>
             <h3 class="project-title" data-i18n="p2_title">Research Paper Discovery Agent</h3>
@@ -312,10 +418,10 @@
             <a class="project-link" href="https://github.com/Amaniaslim/research-paper-discovery-agent" target="_blank" rel="noopener" data-i18n="link_open_repo">Repository öffnen ↗</a>
           </article>
 
-          <!-- Project 3: GitHub Repository Tag Analyzer -->
+          <!-- Project 5: GitHub Repository Tag Analyzer -->
           <article class="card project">
             <div class="project-head">
-              <span class="project-num" aria-hidden="true">03</span>
+              <span class="project-num" aria-hidden="true">05</span>
               <span class="badge">if(is)</span>
             </div>
             <h3 class="project-title" data-i18n="p3_title">GitHub Repository Tag Analyzer</h3>
@@ -347,10 +453,10 @@
             </div>
           </article>
 
-          <!-- Project 4: Bachelor Thesis -->
+          <!-- Project 6: Bachelor Thesis -->
           <article class="card project project-featured">
             <div class="project-head">
-              <span class="project-num" aria-hidden="true">04</span>
+              <span class="project-num" aria-hidden="true">06</span>
               <span class="badge" data-i18n="badge_thesis">Bachelorarbeit</span>
             </div>
             <h3 class="project-title" data-i18n="p4_title">Datenbasierte IT-Sicherheitsnomenklatur &amp; Knowledge Graphs</h3>
@@ -405,6 +511,8 @@
               <li data-i18n="skills_qa_5">ISTQB Foundation Level (in Vorbereitung)</li>
               <li data-i18n="skills_qa_6">Ergebnisvalidierung</li>
               <li data-i18n="skills_qa_7">strukturierte Dokumentation</li>
+              <li data-i18n="skills_qa_8">Unit- &amp; Integrationstests</li>
+              <li data-i18n="skills_qa_9">Browser-/E2E-Tests mit Playwright</li>
             </ul>
           </article>
 
@@ -412,6 +520,7 @@
             <h3 data-i18n="skills_prog_title">Programmierung &amp; APIs</h3>
             <ul class="chip-list">
               <li>Python</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
+              <li>TypeScript</li><li>React</li><li>FastAPI</li><li>D3.js</li>
               <li>JSON</li><li>Regex</li><li>REST APIs</li><li>GitHub API</li>
             </ul>
           </article>
@@ -419,9 +528,9 @@
           <article class="card skill-group">
             <h3 data-i18n="skills_data_title">Daten &amp; Tools</h3>
             <ul class="chip-list">
-              <li>PostgreSQL</li><li>SQL</li>
+              <li>PostgreSQL</li><li>SQL</li><li>Neo4j</li><li>Cypher</li>
               <li data-i18n="tag_dataanalysis">Datenanalyse</li>
-              <li>Git</li><li>GitHub</li><li>Docker</li><li>Streamlit</li>
+              <li>Git</li><li>GitHub</li><li>GitLab</li><li>Docker</li><li>Streamlit</li>
             </ul>
           </article>
 
@@ -447,6 +556,7 @@
           <article class="card">
             <h3 data-i18n="cert_title">Weiterbildung</h3>
             <ul class="def-list">
+              <li><span data-i18n="cert_irad">Software Testing Weiterbildung · Irad Akademie</span><span class="def-val">02/2026 – 06/2026</span></li>
               <li><span>ISTQB Foundation Level</span><span class="def-val" data-i18n="cert_prep">in Vorbereitung</span></li>
               <li><span>Deutschlandstipendium</span><span class="def-val" data-i18n="cert_since2022">seit 2022</span></li>
             </ul>
