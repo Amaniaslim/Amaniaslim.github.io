@@ -128,7 +128,7 @@
       cert_title: "Weiterbildung", cert_prep: "in Vorbereitung", cert_since2022: "seit 2022",
 
       about_p3: "Von Februar bis Juni 2026 habe ich an der Irad Akademie eine Software-Testing-Weiterbildung zur Vorbereitung auf die ISTQB Foundation Level Prüfung absolviert. Seit 2022 bin ich außerdem Stipendiatin des Deutschlandstipendiums.",
-      exp5_role: "Masterprojekt – Knowledge Graph IT-Sicherheit", exp5_date: "seit 2026",
+      exp5_role: "Masterprojekt – Knowledge Graph IT-Sicherheit", exp5_date: "April 2026 – voraussichtlich April 2027",
       exp5_org: "Westfälische Hochschule / Institut für Internet-Sicherheit if(is)",
       exp5_1: "Webbasierter Knowledge Graph zur strukturierten Darstellung von IT-Sicherheitsbegriffen und fachlichen Beziehungen",
       exp5_2: "Full-Stack-Umsetzung mit Neo4j, FastAPI, React, TypeScript und D3.js inklusive Suche, Filterung, interaktiver Graphvisualisierung und rollenbasiertem Review-Workflow",
@@ -296,7 +296,7 @@
       cert_title: "Professional development", cert_prep: "in preparation", cert_since2022: "since 2022",
 
       about_p3: "From February to June 2026 I completed a software testing course at Irad Akademie to prepare for the ISTQB Foundation Level exam. Since 2022 I have also been a scholarship holder of the Deutschlandstipendium (Germany Scholarship).",
-      exp5_role: "Master's project – Cybersecurity Knowledge Graph", exp5_date: "since 2026",
+      exp5_role: "Master's project – Cybersecurity Knowledge Graph", exp5_date: "April 2026 – expected April 2027",
       exp5_org: "Westfälische Hochschule / Institute for Internet Security if(is)",
       exp5_1: "Web-based knowledge graph for the structured representation of cybersecurity terms and their relationships",
       exp5_2: "Full-stack implementation with Neo4j, FastAPI, React, TypeScript and D3.js including search, filtering, interactive graph visualization and a role-based review workflow",
@@ -464,7 +464,7 @@
       cert_title: "التطوير المهني", cert_prep: "قيد التحضير", cert_since2022: "منذ 2022",
 
       about_p3: "من فبراير حتى يونيو 2026 أتممتُ دورة تدريبية في اختبار البرمجيات في Irad Akademie للتحضير لامتحان ISTQB Foundation Level. كما أنني منذ عام 2022 حاصلة على منحة ألمانيا (Deutschlandstipendium).",
-      exp5_role: "مشروع الماجستير – رسم المعرفة لأمن المعلومات", exp5_date: "منذ 2026",
+      exp5_role: "مشروع الماجستير – رسم المعرفة لأمن المعلومات", exp5_date: "أبريل 2026 – متوقع أبريل 2027",
       exp5_org: "جامعة Westfälische Hochschule / معهد أمن الإنترنت if(is)",
       exp5_1: "رسم معرفة على الويب لعرض مصطلحات أمن المعلومات والعلاقات بينها بشكل منظم",
       exp5_2: "تطوير متكامل باستخدام Neo4j و FastAPI و React و TypeScript و D3.js يشمل البحث والتصفية والعرض التفاعلي للرسم وسير مراجعة قائم على الأدوار",
